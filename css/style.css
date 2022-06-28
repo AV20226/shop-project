@@ -52,7 +52,6 @@ body{
 .menu li{
     float: left;
     width: 25%;
-    /* margin: 25px 0px;  */
     border-left: 1px solid #2c71b8;
     color: rgb(44, 113, 184);
 }
@@ -72,18 +71,28 @@ body{
     color:  #2c71b8;
 
 }
+.arrow{
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    /* filter: ; */
+}
 .menu a:hover{
     background-color: #2c71b8;
     color:white;
 }
+.arrow:hover{
+    filter: invert(1);
+}
+
 .sub-menu{
-    display: block;
+    display: none;
     position: absolute;
     width: 280px;
     height: 315px;
     background-color: rgb(44, 113, 184);
-    border: 1px solid rgb(255, 255, 255);
-    margin-left: -2px;
+    margin-left: 0px;
       
 
 } 
@@ -106,6 +115,9 @@ body{
 }
 .sub-menu-item{
     padding-left: 30px;
+}
+.menu li:hover .sub-menu{
+    display: block;
 }
 .sub-menu a:hover{
     background-color: rgb(255, 255, 255);

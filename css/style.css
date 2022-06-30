@@ -189,6 +189,32 @@ body{
     padding: 10px;
     border: none;
 }
+.counter-wrapper{
+    position: absolute;
+    display: inline-block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 113, 184);
+    top: -10px;
+    left: -10px;
+    
+
+
+}
+.counter-wrapper span{
+    display: inline-block;
+    position: absolute;
+    font-size: 10px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.75);
+    margin:0 auto;
+    left: 0;
+    right: 0;
+
+    
+    
 
 
 .main{

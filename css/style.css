@@ -17,8 +17,8 @@ body{
 .row{
     padding-left: -15px;
     padding-right: -15px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black; 
+    border-bottom: 1px solid black; */
 }
 .row::after{
     content: "";
@@ -31,9 +31,11 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .col-md-3{
     width: 25%;
 }
+
 .col-md-6{
     width: 50%;
     
@@ -41,13 +43,14 @@ body{
 .col-md-9{
     width: 75%;
 }
+.col-md-12{
+    width: 100%;
+}
 .header{
     padding: 25px 0;
     background-color: rgba(255, 255, 255, 0.75);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-
 }
+
 .logo{
     margin-top: 7px;
     
@@ -86,7 +89,8 @@ body{
 /******************************:HOVER**************/
 .menu a:hover{
     background-color: #2c71b8;
-    color: white;       
+    color: white;   
+    z-index: 203;    
 }
 .menu a:hover .arrow{ 
     background-image: url(../images/arrow_white_color.png);    
@@ -136,14 +140,14 @@ body{
     background-color: rgb(255, 255, 255);
     color: #2c71b8;
     width: 100%;
-    text-align: left;  
+    text-align: left;
+    z-index: 203;  
 }
 /*************************************************/
 .search-window{
     display: block;
     position: relative;
     float: left;
-    /* vertical-align: middle; */
     border: 1px solid rgb(44, 113, 184);
     width: 200px;
     height: 40px;
@@ -190,7 +194,6 @@ body{
 
 }
 .cart-bn{
-    /* display: block; */
     position: relative;
     float: right;
     width: 40px;
@@ -219,7 +222,6 @@ body{
     display: inline-block;
     position: absolute;
     font-size: 12px;
-    /* font-family: "Myriad Pro"; */
     color: rgb(255, 255, 255);
     line-height: 20px;
     color: rgba(255, 255, 255, 0.75);
@@ -227,14 +229,124 @@ body{
     left: 0;
     right: 0;
 }
-
-    
-    
+ 
 
 
 .main{
+    height: 2735px;    
+}
+/* ************************SLIDER********** */
+.container-slider{
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.75);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.75);
     
 }
+.slider{
+    height: 400px;
+    width: 100%;
+    padding: 0;
+    margin: 0;  
+    
+    /* z-index: 3; */
+}
+
+/* ************************PTODUCTS SIDEBAR********** */
+.devices{
+    padding: 0;
+    margin: 0;
+    height: 2340px;
+}
+.sidebar{
+    position: relative;
+    /* background-color: rgb(255, 255, 255, 0.2); */
+    height: 2340px;
+}
+.sidebar-part1{
+    position: relative;
+    background-color: rgb(255, 255, 255, 0.2);
+    height: 845px;
+}
+.sidebar-part2{
+    position: relative;
+    /* background-color: rgb(255, 255, 255, 0.2); */
+    height: 1495px;
+}
+/* ********************PRODUCTS DEVICES NAMES***************** */
+
+.path{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.502);
+    line-height: 1.2;
+    text-align: left; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.products-name{
+    display: inline-block;
+    float: left;
+    font-size: 48px;
+    line-height: 0.833;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 60px; 
+    margin-right: 0;
+    width: 50%;
+}
+ 
+.sort-prices{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(44, 113, 184);
+    width: 275px;
+    height: 40px;
+    float: right;
+    margin-bottom: 60px;
+    width: 25%;
+    background-color: inherit);
+    
+}
+.sort-by{
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    height: 38px;
+    width: 100%;
+   
+}
+.sort-by-item{
+    
+    
+}
+select{
+    background-color: rgb(44, 113, 184); 
+    color: rgb(255, 255, 255);
+}
+.product-cell{
+    height: 660px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-bottom: 30px;
+    
+}
+.load-more{
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    line-height: 1.111;
+    text-align: center;
+}
+
+/* ************************************** */
+
 .footer{
-    background-color: gray;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 25px 0;
+}
+.text-footer{
+    font-size: 21px;
+    color: rgb(44, 113, 184);
+    line-height: 50px;
+    text-align: center;
+    vertical-align: middle;
 }

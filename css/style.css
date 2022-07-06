@@ -360,6 +360,15 @@ select{
     margin: 10px;
     padding: 5px;
 }
+.foto-like-and-focus-1{
+    display: block;
+    background-color: rgb(44, 113, 184, 0.75) ;
+    border: 1px solid rgb(44, 113, 184);
+    right: 0;
+    margin: 10px;
+    padding: 5px;
+}
+
 .device-description{
     display: block;
     width: 100%;

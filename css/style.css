@@ -305,7 +305,7 @@ body{
     float: right;
     margin-bottom: 60px;
     width: 25%;
-    background-color: inherit);
+    background-color: inherit;
     
 }
 .sort-by{
@@ -327,14 +327,150 @@ select{
     height: 660px;
     border: 1px solid rgb(255, 255, 255);
     margin-bottom: 30px;
+    background-color: rgb(44, 113, 184, 0.75);
     
 }
+/* ********************DEVICES******************** */
+.device-foto{
+    display: block;
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.749);
+    height: 180px;
+    width: 100%;
+}
+.foto{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+.wrapper-like-and-focus{
+    display: block;
+    position: relative;
+    float: right;
+}
+.foto-like-and-focus{
+    display: block;
+    border: 1px solid rgb(44, 113, 184);
+    right: 0;
+    margin: 10px;
+    padding: 5px;
+}
+.device-description{
+    display: block;
+    width: 100%;
+    height: 305px;
+    /* border: 1px solid rgb(255, 255, 255); */
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+.device-description > a{
+    text-decoration: none;
+}
+
+.device-name{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    padding: auto;
+}
+.description{
+    width: 190px;
+    font-size: 21px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5; 
+    
+}
+.characteristik-name{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);     
+}
+.characteristik-description{
+    font-size: 21px;
+    line-height: 1.5;    
+    color: rgb(255, 255, 255);
+}
+.price{
+    display: block;
+    margin-top: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    /* line-height: 2; */
+    text-align: center;
+
+}
+.price-sup{
+    display: inline-block;
+    top: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    vertical-align: revert;
+}
+.bn-wrapper{
+    display: block;
+    width: 210px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.more-ditails-bn{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.add-to-cart-bn{
+    display: block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+}
+.add-to-cart-bn-cart{
+    display: block;
+    position: relative;
+    float: right;    
+    margin-right: 20px;
+}
+
+/* *************************************** */
+
+
 .load-more{
+    position: relative;
+    top: 0px;
+    bottom: 0px;
     font-size: 36px;
     color: rgb(255, 255, 255);
     line-height: 1.111;
     text-align: center;
 }
+
 
 /* ************************************** */
 

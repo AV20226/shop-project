@@ -89,7 +89,7 @@ body{
     height: 10px;
     margin-left: 10px;
     background-image: url(../images/arrow_blue_color.png);
-    /* filter: ; */
+    
 }
 
 /******************************:HOVER**************/
@@ -270,15 +270,7 @@ li.product:hover .arrow{
     height: 2340px;
     width: 100%;
 }
-/* .sidebar-menu{
-    position: relative;
-    background-color: rgb(255, 255, 255, 0.2);
-    height: 100%;
-} */
-/* .sidebar-part2{
-    position: relative;
-    height: 1495px;
-} */
+
 /* ********************PRODUCTS DEVICES NAMES***************** */
 
 .path{
@@ -378,13 +370,53 @@ select{
     position: relative;
     float: right;
 }
-.foto-like-and-focus{
+.focus-wrapper{
     display: block;
     border: 1px solid rgb(44, 113, 184);
-    right: 0;
+    width: 30px;
+    height: 30px;
     margin: 10px;
-    padding: 5px;
 }
+.foto-focus{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/focus-blue.png);
+    background-position: unset;
+    margin: 4px;
+}
+.focus-wrapper:hover {
+    background-color: rgb(44, 113, 184, 0.75) ;
+}
+.focus-wrapper:hover .foto-focus{
+    background-image: url(../images/focus-wihte.png);
+}
+/* ************************* */
+.like-wrapper{
+    display: block;
+    border: 1px solid rgb(44, 113, 184);
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+.foto-like{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/like-blue.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+.like-wrapper:hover {
+    background-color: rgb(44, 113, 184, 0.75) ;
+}
+.like-wrapper:hover .foto-like{
+    background-image: url(../images/like-wihte.png);
+    }
+
+/* ************************* */
 .foto-like-and-focus-1{
     display: block;
     background-color: rgb(44, 113, 184, 0.75) ;
